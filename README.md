@@ -1,4 +1,11 @@
 # Custom_YoloV5_Person
+
+# Requirement
+!git clone https://github.com/ultralytics/yolov5 
+
+!pip install tensorboard==2.4.1
+
+!pip install -r requirements.txt
  
 # Person-Detection
 
@@ -11,3 +18,4 @@ What can you accomplish applying object detection tools to your images and video
 1.Picks objects out of background images,
 2.Proposes the objects as belonging to a certain class — humans, in this case — using a probability score,
 3.Defines the boundaries of the proposed people with x-y origins and height and length values.
+
